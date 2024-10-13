@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS prefix (
 );
 
 INSERT OR IGNORE INTO prefix VALUES
+("prefix", "base"),
 ("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
 ("rdfs", "http://www.w3.org/2000/01/rdf-schema#"),
 ("xsd", "http://www.w3.org/2001/XMLSchema#"),
@@ -17,12 +18,11 @@ INSERT OR IGNORE INTO prefix VALUES
 ("ex", "http://example.com/"),
 ("chebi", "http://purl.obolibrary.org/obo/chebi/"),
 
-("BFO",       "http://purl.obolibrary.org/obo/BFO_"),
-("RO",     "http://purl.obolibrary.org/obo/RO_"),
-("CHEBI",     "http://purl.obolibrary.org/obo/CHEBI_"),
-("OHD",     "http://purl.obolibrary.org/obo/OHD_"),
-("ENVO",     "http://purl.obolibrary.org/obo/ENVO_"),
-("IAO",     "http://purl.obolibrary.org/obo/IAO_"),
-
+("BFO", "http://purl.obolibrary.org/obo/BFO_"),
+("RO", "http://purl.obolibrary.org/obo/RO_"),
+("CHEBI", "http://purl.obolibrary.org/obo/CHEBI_"),
+("OHD", "http://purl.obolibrary.org/obo/OHD_"),
+("ENVO", "http://purl.obolibrary.org/obo/ENVO_"),
+("IAO", "http://purl.obolibrary.org/obo/IAO_"),
 
 ("obo",       "http://purl.obolibrary.org/obo/");
