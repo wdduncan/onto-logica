@@ -6,6 +6,8 @@ Data source supported include:
 * DuckDB
 * Pandas dataframes
 
+The project uses `poetry` to manage dependencies. However, a `requirements.txt` file is also provided.
+
 ## Test data
 Test data is provided using a simple [dental material ontology](./data/dental_material_ontology.owl).  
 Two SQLite databases are created using the ontology:
